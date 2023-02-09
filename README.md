@@ -1,10 +1,14 @@
-<p align="center">
-<img src="logo.png" width="700">
+<div align="center">
+  <p>
+    <a href="https://www.satellite-image-deep-learning.com/">
+        <img src="logo.png" width="700">
+    </a>
 </p>
-
-This page lists software for working with satellite & aerial imagery data & datasets. Learn more at:
+  <h2>Software for working with satellite & aerial imagery data & datasets.</h2>
 
 # 👉 [satellite-image-deep-learning.com](https://www.satellite-image-deep-learning.com/) 👈
+
+</div>
 
 **How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown).
 
@@ -107,6 +111,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [metaearth](https://github.com/bair-climate-initiative/metaearth) -> Download and access remote sensing data from any platform
 * [geoget](https://github.com/mnpinto/geoget) -> Download geodata for anywhere in Earth via ladsweb.modaps.eosdis.nasa.gov
 * [geeml](https://github.com/Geethen/geeml) -> A python package to extract Google Earth Engine data for machine learning
+* [xlandsat](https://github.com/compgeolab/xlandsat) -> A Python package for handling Landsat scenes from EarthExplorer with xarray
 
 # Image chipping/tiling & merging
 Since raw images can be very large, it is usually necessary to chip/tile them into smaller images before annotation & training
@@ -446,10 +451,10 @@ A popular open source alternative to ArcGIS, QGIS is a desktop appication writte
 * [chippy-checker-editor](https://github.com/devglobalpartners/chippy-checker-editor) -> QGIS plugin for viewing and editing labeled remote sensing images
 * [qgis-plugin-deepness](https://github.com/PUTvision/qgis-plugin-deepness) -> Plugin for neural network inference in QGIS: segmentation, regression and detection
 
-# Parallel procesing with Dask
+# Parallel processing with Dask
 Dask provides advanced parallelism and distributed out-of-core computation with a `dask.dataframe` module designed to scale pandas.
-* [Dask](https://docs.dask.org/en/latest/) works with your favorite PyData libraries to provide performance at scale for the tools you love
-* [Coiled](https://coiled.io) is a managed Dask service. Get started by reading [Democratizing Satellite Imagery Analysis with Dask](https://coiled.io/blog/democratizing-satellite-imagery-analysis-with-dask/)
+* [Dask](https://docs.dask.org/en/latest/) -> works with your PyData libraries to provide performance at scale
+* [Coiled](https://coiled.io) -> a managed Dask service. Get started by reading [Democratizing Satellite Imagery Analysis with Dask](https://coiled.io/blog/democratizing-satellite-imagery-analysis-with-dask/)
 * [Dask with PyTorch for large scale image analysis](https://blog.dask.org/2021/03/29/apply-pretrained-pytorch-model)
 * [dask-geopandas](https://github.com/geopandas/dask-geopandas) -> offers geospatial capabilities of GeoPandas backed by Dask
 * [stackstac](https://github.com/gjoseph92/stackstac) -> Turn a STAC catalog into a dask-based xarray
