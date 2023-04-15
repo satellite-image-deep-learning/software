@@ -12,6 +12,28 @@
 
 **How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown).
 
+## Contents
+* [Deep learning projects & frameworks](https://github.com/satellite-image-deep-learning/software#deep-learning-projects--frameworks)
+* [Software for working with remote sensing data](https://github.com/satellite-image-deep-learning/software#software-for-working-with-remote-sensing-data)
+* [Image dataset creation](https://github.com/satellite-image-deep-learning/software#image-dataset-creation)
+* [Image chipping/tiling & merging](https://github.com/satellite-image-deep-learning/software#image-chippingtiling--merging)
+* [Image processing, handling, manipulation](https://github.com/satellite-image-deep-learning/software#image-processing-handling-manipulation)
+* [Image augmentation packages](https://github.com/satellite-image-deep-learning/software#image-augmentation-packages)
+* [Image formats, data management and catalogues](https://github.com/satellite-image-deep-learning/software#image-formats-data-management-and-catalogues)
+* [General utilities](https://github.com/satellite-image-deep-learning/software#general-utilities)
+* [Low level numerical & data formats](https://github.com/satellite-image-deep-learning/software#low-level-numerical--data-formats)
+* [Graphing and visualisation](https://github.com/satellite-image-deep-learning/software#graphing-and-visualisation)
+* [Algorithms](https://github.com/satellite-image-deep-learning/software#algorithms)
+* [GDAL & Rasterio](https://github.com/satellite-image-deep-learning/software#gdal--rasterio)
+* [Cloud Optimised GeoTiff (COG)](https://github.com/satellite-image-deep-learning/software#cloud-optimised-geotiff-cog)
+* [SpatioTemporal Asset Catalog specification (STAC)](https://github.com/satellite-image-deep-learning/software#spatiotemporal-asset-catalog-specification-stac)
+* [OpenStreetMap](https://github.com/satellite-image-deep-learning/software#openstreetmap)
+* [QGIS](https://github.com/satellite-image-deep-learning/software#qgis)
+* [Parallel processing with Dask](https://github.com/satellite-image-deep-learning/software#parallel-processing-with-dask)
+* [Jupyter](https://github.com/satellite-image-deep-learning/software#jupyter)
+* [Julia language](https://github.com/satellite-image-deep-learning/software#julia-language)
+* [Streamlit](https://github.com/satellite-image-deep-learning/software#streamlit)
+
 # Deep learning projects & frameworks
 * [TorchGeo](https://github.com/microsoft/torchgeo) -> PyTorch library providing datasets, samplers, transforms, and pre-trained models specific to geospatial data. 📺 YouTube: [TorchGeo with Caleb Robinson](https://youtu.be/ET8Hb_HqNJQ)
 * [rastervision](https://rastervision.io/) -> An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets. 📺 YouTube: [Raster Vision with Adeel Hassan](https://youtu.be/hH59fQ-HhZg)
