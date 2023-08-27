@@ -138,6 +138,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 
 # Image chipping/tiling & merging
 Since raw images can be very large, it is usually necessary to chip/tile them into smaller images before annotation & training
+* [Earth Observation Tiles](https://github.com/SBCV/EarthObservationTiles) -> Divides a set of earth observation images with inhomogeneous properties into tiles with consistent real world extent. Provides refined control over tile granularity, tile stride, and image boundary alignment (e.g. to perform a tile-specific data augmentation during training). Overlapping segmentation labels may be fused and stored as geojson files.
 * [image_slicer](https://github.com/samdobson/image_slicer) -> Split images into tiles. Join the tiles back together
 * [tiler by nuno-faria](https://github.com/nuno-faria/tiler) -> split images into tiles and merge tiles into a large image
 * [tiler by the-lay](https://github.com/the-lay/tiler) -> N-dimensional NumPy array tiling and merging with overlapping, padding and tapering
