@@ -135,6 +135,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [geoget](https://github.com/mnpinto/geoget) -> Download geodata for anywhere in Earth via ladsweb.modaps.eosdis.nasa.gov
 * [geeml](https://github.com/Geethen/geeml) -> A python package to extract Google Earth Engine data for machine learning
 * [xlandsat](https://github.com/compgeolab/xlandsat) -> A Python package for handling Landsat scenes from EarthExplorer with xarray
+* [tms2geotiff](https://github.com/gumblex/tms2geotiff) -> Download tiles from Tile Map Server (online maps) and make a large geo-referenced image
 
 # Image chipping/tiling & merging
 Since raw images can be very large, it is usually necessary to chip/tile them into smaller images before annotation & training
@@ -156,6 +157,7 @@ Since raw images can be very large, it is usually necessary to chip/tile them in
 * [ImageTilingUtils](https://github.com/vfdev-5/ImageTilingUtils) -> Minimalistic set of image reader agnostic tools to easily iterate over large images
 * [split_raster](https://github.com/cuicaihao/split_raster) -> Creates a tiled output from an input raster dataset. pip installable
 * [SAHI](https://github.com/obss/sahi) -> Utilties for slicing COCO formatted annotations and image files, performing sliced inference using MMDetection, Detectron2, YOLOv5, HuggingFace detectors and calculating AP over image slices.
+* [geo2ml](https://github.com/mayrajeo/geo2ml) -> Python library and module for converting earth observation data to be suitable for machine learning models, Converting vector data to COCO and YOLO formats and creating required dataset files, Rasterizing polygon geometries for semantic segmentation tasks, Tiling larger rasters and shapefiles into smaller patches
 
 ## Image processing, handling, manipulation
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
@@ -269,6 +271,7 @@ Scripts and command line applications
 * [matico](https://github.com/Matico-Platform/matico) -> a set of tools and services that allow users to manage geospatial datasets, build APIs that use those datasets and full geospatial applications with little to no code
 * [gmtsar](https://github.com/mobigroup/gmtsar) -> easy and fast satellite interferometry (InSAR) processing
 * [image_tiles](https://github.com/moonshinelabs-ai/image_tiles) -> a simple but flexible tool to view a folder full of images on your web browser
+* [sen2mosaic](https://github.com/smfm-project/sen2mosaic) -> a set of tools to aid in the production of large-scale cloud-free seasonal mosaic products from Sentinel-2 data
 
 # Low level numerical & data formats
 * [xarray](http://xarray.pydata.org/en/stable/) -> N-D labeled arrays and datasets. Read [Handling multi-temporal satellite images with Xarray](https://medium.com/@bonnefond.virginie/handling-multi-temporal-satellite-images-with-xarray-30d142d3391). Checkout [xarray_leaflet](https://github.com/davidbrochart/xarray_leaflet) for tiled map plotting and [sklearn-xarray](https://github.com/phausamann/sklearn-xarray) for metadata-aware machine learning. Publish Xarray Datasets via a REST API uisng [xpublish](https://github.com/xarray-contrib/xpublish)
@@ -437,6 +440,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [stac-geoparquet](https://github.com/TomAugspurger/stac-geoparquet) -> Convert STAC items to geoparquet
 * [labs-gpt-stac](https://github.com/developmentseed/labs-gpt-stac) -> connect ChatGPT to a STAC API backend
 * [stac_ipyleaflet](https://github.com/MAAP-Project/stac_ipyleaflet) -> stac_ipyleaflet is a customized version of ipyleaflet built to be an in-jupyter-notebook interactive mapping library that prioritizes access to STAC catalog data
+* [prefect-planetary-computer](https://github.com/giorgiobasile/prefect-planetary-computer) -> Prefect integrations with Microsoft Planetary Computer
 
 # OpenStreetMap
 [OpenStreetMap](https://www.openstreetmap.org/) (OSM) is a map of the world, created by people like you and free to use under an open license. Quite a few publications use OSM data for annotations & ground truth. Note that the data is created by volunteers and the quality can be variable
