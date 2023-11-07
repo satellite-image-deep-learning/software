@@ -94,6 +94,7 @@ for Vision Applications. Read the paper [here](https://arxiv.org/abs/2111.10046)
 * [rgis](https://github.com/frewsxcv/rgis) -> Geospatial data viewer written in Rust
 * [aerialbot](https://github.com/doersino/aerialbot) -> A simple yet highly configurable bot that tweets geotagged aerial imagery of a random location in the world
 * [SatDump](https://github.com/altillimity/SatDump) -> A generic satellite data processing software.
+* [EOdal](https://github.com/EOA-team/eodal) -> a Python library enabling the acquisition, organization, and analysis of EO data in a completely open-source manner within a unified framework.
 
 # Image dataset creation
 Many datasets on kaggle & elsewhere have been created by screen-clipping Google Maps or browsing web portals. The tools below are to create datasets programatically
