@@ -334,6 +334,7 @@ Scripts and command line applications
 * [pygieons](https://github.com/pygieons/pygieons) -> A simple package to visualize and keep track of GIS and Earth Observation libraries in Python
 * [regionmask](https://github.com/regionmask/regionmask) -> Create masks of geographical regions for arbitrary longitude and latitude grids
 * [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
+* [terrain-diffusion-app](https://github.com/sshh12/terrain-diffusion-app) -> An infinite collaborative inpainter which allows users to dynamic generate satellite-realistic map tiles
 
 # Algorithms
 * [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
