@@ -374,7 +374,7 @@ Scripts and command line applications
 
 # GDAL & Rasterio
 So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
-* [GDAL](https://gdal.org) and [on twitter](https://twitter.com/gdaltips)
+* [GDAL](https://gdal.org)
 * GDAL is a dependency of Rasterio and can be difficult to build and install. I recommend using conda, brew (on OSX) or docker in these situations
 * GDAL docker quickstart: `docker pull osgeo/gdal` then `docker run --rm -v $(pwd):/data/ osgeo/gdal gdalinfo /data/cog.tiff`
 * [Even Rouault](https://github.com/rouault) maintains GDAL, please consider [sponsoring him](https://github.com/sponsors/rouault)
@@ -488,7 +488,7 @@ A popular open source alternative to ArcGIS, QGIS is a desktop appication writte
 # Parallel processing with Dask
 Dask provides advanced parallelism and distributed out-of-core computation with a `dask.dataframe` module designed to scale pandas.
 * [Dask](https://docs.dask.org/en/latest/) -> works with your PyData libraries to provide performance at scale
-* [Coiled](https://coiled.io) -> a managed Dask service. Get started by reading [Democratizing Satellite Imagery Analysis with Dask](https://coiled.io/blog/democratizing-satellite-imagery-analysis-with-dask/)
+* [Coiled](https://coiled.io) -> a managed Dask service
 * [Dask with PyTorch for large scale image analysis](https://blog.dask.org/2021/03/29/apply-pretrained-pytorch-model)
 * [dask-geopandas](https://github.com/geopandas/dask-geopandas) -> offers geospatial capabilities of GeoPandas backed by Dask
 * [stackstac](https://github.com/gjoseph92/stackstac) -> Turn a STAC catalog into a dask-based xarray
@@ -563,4 +563,3 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 * [Streamlit_Image_Sorter](https://github.com/2320sharon/Streamlit_Image_Sorter) -> Generic Image Sorter Interface for Streamlit
 * [Streamlit-Folium + Snowflake + OpenStreetMap](https://github.com/randyzwitch/streamlit-folium-snowflake-openstreetmap) -> demonstrates the power of Snowflake Geospatial data types and queries combined with Streamlit
 * [observing-earth-from-space-with-streamlit](https://blog.streamlit.io/observing-earth-from-space-with-streamlit/) -> blog post on the [SatSchool](https://github.com/Spiruel/SatSchool) app
-* [vector-validator](https://github.com/chrieke/vector-validator) -> Webapp that validates and automatically fixes your geospatial vector data
