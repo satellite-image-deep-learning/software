@@ -484,6 +484,7 @@ A popular open source alternative to ArcGIS, QGIS is a desktop appication writte
 * [Semi-Automatic Classification Plugin](https://github.com/semiautomaticgit/SemiAutomaticClassificationPlugin) -> supervised classification of remote sensing images, providing tools for the download, the preprocessing and postprocessing of images
 * [chippy-checker-editor](https://github.com/devglobalpartners/chippy-checker-editor) -> QGIS plugin for viewing and editing labeled remote sensing images
 * [qgis-plugin-deepness](https://github.com/PUTvision/qgis-plugin-deepness) -> Plugin for neural network inference in QGIS: segmentation, regression and detection
+* [QGPTAgent](https://github.com/momaabna/QGPTAgent) -> plugin for QGIS that utilizes the advanced natural language processing capabilities of the OpenAI GPT model to automate various processes in QGIS
 
 # Parallel processing with Dask
 Dask provides advanced parallelism and distributed out-of-core computation with a `dask.dataframe` module designed to scale pandas.
