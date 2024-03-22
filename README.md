@@ -138,6 +138,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [geeml](https://github.com/Geethen/geeml) -> A python package to extract Google Earth Engine data for machine learning
 * [xlandsat](https://github.com/compgeolab/xlandsat) -> A Python package for handling Landsat scenes from EarthExplorer with xarray
 * [tms2geotiff](https://github.com/gumblex/tms2geotiff) -> Download tiles from Tile Map Server (online maps) and make a large geo-referenced image
+* [s2-chips](https://github.com/tharlestsa/s2-chips) -> efficiently extracts satellite imagery chips from Sentinel-2 datasets based on given geo-coordinates from a GeoJSON file. Uses Ray for parallel processing
 
 # Image chipping/tiling & merging
 Since raw images can be very large, it is usually necessary to chip/tile them into smaller images before annotation & training
@@ -485,6 +486,7 @@ A popular open source alternative to ArcGIS, QGIS is a desktop appication writte
 * [chippy-checker-editor](https://github.com/devglobalpartners/chippy-checker-editor) -> QGIS plugin for viewing and editing labeled remote sensing images
 * [qgis-plugin-deepness](https://github.com/PUTvision/qgis-plugin-deepness) -> Plugin for neural network inference in QGIS: segmentation, regression and detection
 * [QGPTAgent](https://github.com/momaabna/QGPTAgent) -> plugin for QGIS that utilizes the advanced natural language processing capabilities of the OpenAI GPT model to automate various processes in QGIS
+* [EO Time Series Viewer](https://eo-time-series-viewer.readthedocs.io/en/latest/) -> QGIS Plugin to visualize and label raster-based earth observation time series data
 
 # Parallel processing with Dask
 Dask provides advanced parallelism and distributed out-of-core computation with a `dask.dataframe` module designed to scale pandas.
