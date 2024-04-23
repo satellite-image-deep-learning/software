@@ -161,6 +161,7 @@ Since raw images can be very large, it is usually necessary to chip/tile them in
 * [split_raster](https://github.com/cuicaihao/split_raster) -> Creates a tiled output from an input raster dataset. pip installable
 * [SAHI](https://github.com/obss/sahi) -> Utilties for slicing COCO formatted annotations and image files, performing sliced inference using MMDetection, Detectron2, YOLOv5, HuggingFace detectors and calculating AP over image slices.
 * [geo2ml](https://github.com/mayrajeo/geo2ml) -> Python library and module for converting earth observation data to be suitable for machine learning models, Converting vector data to COCO and YOLO formats and creating required dataset files, Rasterizing polygon geometries for semantic segmentation tasks, Tiling larger rasters and shapefiles into smaller patches
+* [FlipnSlide](https://github.com/elliesch/flipnslide) -> a concise tiling and augmentation strategy to prepare large scientific images for use with GPU-enabled algorithms. Outputs PyTorch-ready preprocessed datasets from a single large image.
 
 ## Image processing, handling, manipulation
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
