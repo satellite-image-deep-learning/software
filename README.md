@@ -34,7 +34,7 @@
 * [Julia language](https://github.com/satellite-image-deep-learning/software#julia-language)
 * [Streamlit](https://github.com/satellite-image-deep-learning/software#streamlit)
 
-# Deep learning projects & frameworks
+## Deep learning projects & frameworks
 * [TorchGeo](https://github.com/microsoft/torchgeo) -> PyTorch library providing datasets, samplers, transforms, and pre-trained models specific to geospatial data. 📺 YouTube: [TorchGeo with Caleb Robinson](https://youtu.be/ET8Hb_HqNJQ)
 * [rastervision](https://rastervision.io/) -> An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets. 📺 YouTube: [Raster Vision with Adeel Hassan](https://youtu.be/hH59fQ-HhZg)
 * [segmentation_gym](https://github.com/Doodleverse/segmentation_gym) -> A neural gym for training deep learning models to carry out geoscientific image segmentation, uses keras. 📺 YouTube: [Satellite image segmentation using the Doodleverse segmentation gym with Dan Buscombe](https://youtu.be/0I1TOOGfdZ0)
@@ -69,7 +69,7 @@
 * [raster4ml](https://github.com/remotesensinglab/raster4ml) -> A geospatial raster processing library for machine learning
 * [moonshine](https://github.com/moonshinelabs-ai/moonshine) -> a Python package that makes it easier to train models on remote sensing data like satellite imagery
 
-# Software for working with remote sensing data
+## Software for working with remote sensing data
 [A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
 * [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code) -> lists many useful tools and resources
 * [Orfeo toolbox](https://www.orfeo-toolbox.org/) - remote sensing toolbox with python API (just a wrapper to the C code). Do activites such as [pansharpening](https://www.orfeo-toolbox.org/CookBook/Applications/app_Pansharpening.html), ortho-rectification, image registration, image segmentation & classification. Not much documentation.
@@ -97,7 +97,7 @@ for Vision Applications. Read the paper [here](https://arxiv.org/abs/2111.10046)
 * [EOdal](https://github.com/EOA-team/eodal) -> a Python library enabling the acquisition, organization, and analysis of EO data in a completely open-source manner within a unified framework.
 * [SRAI](https://github.com/kraina-ai/srai) -> Spatial Representations for Artificial Intelligence aims to provide simple and efficient solutions to geospatial problems that are accessible to everybody and reusable in various contexts where geospatial data can be used.
 
-# Image dataset creation
+## Image dataset creation
 Many datasets on kaggle & elsewhere have been created by screen-clipping Google Maps or browsing web portals. The tools below are to create datasets programatically
 * [MapTilesDownloader](https://github.com/AliFlux/MapTilesDownloader) -> A super easy to use map tiles downloader built using Python
 * [jimutmap](https://github.com/Jimut123/jimutmap) -> get enormous amount of high resolution satellite images from apple / google maps quickly through multi-threading
@@ -140,7 +140,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [tms2geotiff](https://github.com/gumblex/tms2geotiff) -> Download tiles from Tile Map Server (online maps) and make a large geo-referenced image
 * [s2-chips](https://github.com/tharlestsa/s2-chips) -> efficiently extracts satellite imagery chips from Sentinel-2 datasets based on given geo-coordinates from a GeoJSON file. Uses Ray for parallel processing
 
-# Image chipping/tiling & merging
+## Image chipping/tiling & merging
 Since raw images can be very large, it is usually necessary to chip/tile them into smaller images before annotation & training
 * [image_slicer](https://github.com/samdobson/image_slicer) -> Split images into tiles. Join the tiles back together
 * [tiler by nuno-faria](https://github.com/nuno-faria/tiler) -> split images into tiles and merge tiles into a large image
@@ -229,7 +229,7 @@ Image augmentation is a technique used to expand a training dataset in order to 
 * [fastdup](https://github.com/visualdatabase/fastdup) -> a tool for gaining insights from a large image collection. It can find anomalies, duplicate and near duplicate images
 * [Nucleus](https://dashboard.scale.com/nucleus/) is a platform for image dataset management with advanced features including [autotagging](https://nucleus.scale.com/docs/introduction-to-autotag) and finding [instances with mismatched predictions & annotations](https://nucleus.scale.com/docs/find-inaccurate-predictions)
 
-# General utilities
+## General utilities
 Scripts and command line applications
 * [geospatial-cli](https://github.com/JakobMiksch/geospatial-cli) -> a collection of geospatial programs with commandline interface
 * [PyShp](https://github.com/GeospatialPython/pyshp) -> The Python Shapefile Library (PyShp) reads and writes Shapefiles in pure Python
@@ -277,7 +277,7 @@ Scripts and command line applications
 * [image_tiles](https://github.com/moonshinelabs-ai/image_tiles) -> a simple but flexible tool to view a folder full of images on your web browser
 * [sen2mosaic](https://github.com/smfm-project/sen2mosaic) -> a set of tools to aid in the production of large-scale cloud-free seasonal mosaic products from Sentinel-2 data
 
-# Low level numerical & data formats
+## Low level numerical & data formats
 * [xarray](http://xarray.pydata.org/en/stable/) -> N-D labeled arrays and datasets. Read [Handling multi-temporal satellite images with Xarray](https://medium.com/@bonnefond.virginie/handling-multi-temporal-satellite-images-with-xarray-30d142d3391). Checkout [xarray_leaflet](https://github.com/davidbrochart/xarray_leaflet) for tiled map plotting and [sklearn-xarray](https://github.com/phausamann/sklearn-xarray) for metadata-aware machine learning. Publish Xarray Datasets via a REST API uisng [xpublish](https://github.com/xarray-contrib/xpublish)
 * [wxee](https://github.com/aazuspan/wxee) -> Export data from GEE to xarray using wxee then train with pytorch or tensorflow models. Useful since GEE only suports tfrecord export natively
 * [xarray-spatial](https://github.com/makepath/xarray-spatial) -> Fast, Accurate Python library for Raster Operations. Implements algorithms using Numba and Dask, free of GDAL
@@ -289,7 +289,7 @@ Scripts and command line applications
 * [geoparquet](https://github.com/opengeospatial/geoparquet) -> Specification for storing geospatial vector data (point, line, polygon) in Parquet
 * [TFRecord reader for PyTorch](https://github.com/vahidk/tfrecord)
 
-# Graphing and visualisation
+## Graphing and visualisation
 * [hvplot](https://hvplot.holoviz.org/) -> A high-level plotting API for the PyData ecosystem built on HoloViews. Allows overlaying data on map tiles, see [Exploring USGS Terrain Data in COG format using hvPlot](https://discourse.holoviz.org/t/exploring-usgs-terrain-data-in-cog-format-using-hvplot/1727)
 * [Pyviz](https://examples.pyviz.org/) examples include several interesting geospatial visualisations
 * [napari](https://napari.org) -> napari is a fast, interactive, multi-dimensional image viewer for Python. It’s designed for browsing, annotating, and analyzing large multi-dimensional images. By integrating closely with the Python ecosystem, napari can be easily coupled to leading machine learning and image analysis tools. Note that to view a 3GB COG I had to install the [napari-tifffile-reader](https://github.com/GenevieveBuckley/napari-tifffile-reader) plugin.
@@ -338,7 +338,7 @@ Scripts and command line applications
 * [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
 * [terrain-diffusion-app](https://github.com/sshh12/terrain-diffusion-app) -> An infinite collaborative inpainter which allows users to dynamic generate satellite-realistic map tiles
 
-# Algorithms
+## Algorithms
 * [WaterDetect](https://github.com/cordmaur/WaterDetect) -> an end-to-end algorithm to generate open water cover mask, specially conceived for L2A Sentinel 2 imagery. It can also be used for Landsat 8 images and for other multispectral clustering/segmentation tasks.
 * [GatorSense Hyperspectral Image Analysis Toolkit](https://github.com/GatorSense/hsi_toolkit_py) -> This repo contains algorithms for Anomaly Detectors, Classifiers, Dimensionality Reduction, Endmember Extraction, Signature Detectors, Spectral Indices
 * [detectree](https://github.com/martibosch/detectree) -> Tree detection from aerial imagery
@@ -374,7 +374,7 @@ Scripts and command line applications
 * [CoastSat.PlanetScope](https://github.com/ydoherty/CoastSat.PlanetScope) -> Batch shoreline extraction toolkit for PlanetScope Dove satellite imagery
 * [mappymatch](https://github.com/NREL/mappymatch) -> Pure-python package for map matching
 
-# GDAL & Rasterio
+## GDAL & Rasterio
 So improtant this pair gets their own section. GDAL is THE command line tool for reading and writing raster and vector geospatial data formats. If you are using python you will probably want to use Rasterio which provides a pythonic wrapper for GDAL
 * [GDAL](https://gdal.org)
 * GDAL is a dependency of Rasterio and can be difficult to build and install. I recommend using conda, brew (on OSX) or docker in these situations
@@ -393,7 +393,7 @@ So improtant this pair gets their own section. GDAL is THE command line tool for
 * [gdal2tiles](https://github.com/tehamalab/gdal2tiles) -> A python library for generating map tiles based on gdal2tiles.py from GDAL project
 * [gdal3.js](https://github.com/bugra9/gdal3.js) -> Convert raster and vector geospatial data to various formats and coordinate systems entirely in the browser
 
-# Cloud Optimised GeoTiff (COG)
+## Cloud Optimised GeoTiff (COG)
 A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF that supports HTTP range requests, enabling downloading of specific tiles rather than the full file. COG generally work normally in GIS software such as QGIS, but are larger than regular GeoTIFFs
 * https://www.cogeo.org/
 * [cog-best-practices](https://github.com/pangeo-data/cog-best-practices)
@@ -410,7 +410,7 @@ A Cloud Optimized GeoTIFF (COG) is a regular GeoTIFF that supports HTTP range re
 * [Displaying a gridded dataset on a web-based map - Step by step guide for displaying large GeoTIFFs, using Holoviews, Bokeh, and Datashader](https://towardsdatascience.com/displaying-a-gridded-dataset-on-a-web-based-map-ad6bbe90247f)
 * [cog_worker](https://github.com/Vizzuality/cog_worker) -> Scalable arbitrary analysis on COGs
 
-# SpatioTemporal Asset Catalog specification (STAC)
+## SpatioTemporal Asset Catalog specification (STAC)
 The STAC specification provides a common metadata specification, API, and catalog format to describe geospatial assets, so they can more easily indexed and discovered.
 * Spec at https://github.com/radiantearth/stac-spec
 * [STAC 1.0.0: The State of the STAC Software Ecosystem](https://medium.com/radiant-earth-insights/stac-1-0-0-software-ecosystem-updates-da4e800a4973)
@@ -447,7 +447,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [stac_ipyleaflet](https://github.com/MAAP-Project/stac_ipyleaflet) -> stac_ipyleaflet is a customized version of ipyleaflet built to be an in-jupyter-notebook interactive mapping library that prioritizes access to STAC catalog data
 * [prefect-planetary-computer](https://github.com/giorgiobasile/prefect-planetary-computer) -> Prefect integrations with Microsoft Planetary Computer
 
-# OpenStreetMap
+## OpenStreetMap
 [OpenStreetMap](https://www.openstreetmap.org/) (OSM) is a map of the world, created by people like you and free to use under an open license. Quite a few publications use OSM data for annotations & ground truth. Note that the data is created by volunteers and the quality can be variable
 * [osmnx](https://github.com/gboeing/osmnx) -> Retrieve, model, analyze, and visualize data from OpenStreetMap
 * [ohsome2label](https://github.com/GIScience/ohsome2label) -> Historical OpenStreetMap Objects to Machine Learning Training Samples
@@ -464,7 +464,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [baremaps](https://github.com/baremaps/baremaps) -> Create custom vector tiles from OpenStreetMap and other data sources with Postgis and Java.
 * [osm2streets](https://github.com/a-b-street/osm2streets) -> Convert OSM to street networks with detailed geometry
 
-# QGIS
+## QGIS
 A popular open source alternative to ArcGIS, QGIS is a desktop appication written in python and extended with plugins which are essentially python scripts
 * [QGIS](https://qgis.org/en/site/)
 * Create, edit, visualise, analyse and publish geospatial information. Open source alternative to ArcGIS.
@@ -489,7 +489,7 @@ A popular open source alternative to ArcGIS, QGIS is a desktop appication writte
 * [QGPTAgent](https://github.com/momaabna/QGPTAgent) -> plugin for QGIS that utilizes the advanced natural language processing capabilities of the OpenAI GPT model to automate various processes in QGIS
 * [EO Time Series Viewer](https://eo-time-series-viewer.readthedocs.io/en/latest/) -> QGIS Plugin to visualize and label raster-based earth observation time series data
 
-# Parallel processing with Dask
+## Parallel processing with Dask
 Dask provides advanced parallelism and distributed out-of-core computation with a `dask.dataframe` module designed to scale pandas.
 * [Dask](https://docs.dask.org/en/latest/) -> works with your PyData libraries to provide performance at scale
 * [Coiled](https://coiled.io) -> a managed Dask service
@@ -502,7 +502,7 @@ Dask provides advanced parallelism and distributed out-of-core computation with 
 * [Analyze terabyte-scale geospatial datasets with Dask and Jupyter on AWS](https://aws.amazon.com/blogs/publicsector/analyze-terabyte-scale-geospatial-datasets-with-dask-and-jupyter-on-aws/)
 * [austin-ml-change-detection-demo](https://github.com/makepath/austin-ml-change-detection-demo) -> A change detection demo for the Austin area using a pre-trained PyTorch model scaled with Dask on Planet imagery
 
-# Jupyter
+## Jupyter
 The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computing platform. There are many extensions which make it a powerful environment for analysing satellite imagery
 * [jupyterlite](https://jupyterlite.readthedocs.io/en/latest/) -> JupyterLite is a JupyterLab distribution that runs entirely in the browser
 * [jupyter_compare_view](https://github.com/Octoframes/jupyter_compare_view) -> Blend Between Multiple Images
@@ -517,7 +517,7 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 * [papermill](https://github.com/nteract/papermill) -> Parameterize, execute, and analyze notebooks
 * [pretty-jupyter](https://github.com/JanPalasek/pretty-jupyter) -> Creates dynamic html report from jupyter notebook
 
-# Julia language
+## Julia language
 [Julia](https://julialang.org/) looks and feels a lot like Python, but can be much faster. Julia can call Python, C, and Fortran libraries and is capabale of C/Fortran speeds. Julia can be used in the familiar Jupyterlab notebook environment
 * [Why you should invest in Julia now, as a Data Scientist](https://medium.com/@logankilpatrick/why-you-should-invest-in-julia-now-as-a-data-scientist-30dc346d62e4)
 * [eBook: Introduction to Datascience with Julia](https://datascience-book.gitlab.io/)
