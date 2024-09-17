@@ -256,6 +256,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [QGPTAgent](https://github.com/momaabna/QGPTAgent) -> plugin for QGIS that utilizes the advanced natural language processing capabilities of the OpenAI GPT model to automate various processes in QGIS
 * [EO Time Series Viewer](https://eo-time-series-viewer.readthedocs.io/en/latest/) -> QGIS Plugin to visualize and label raster-based earth observation time series data
 * [Deepness](https://github.com/PUTvision/qgis-plugin-deepness) -> a remote sensing plugin that enables deep learning inference in QGIS
+* [jupyter-remote-qgis-proxy](https://github.com/sunu/jupyter-remote-qgis-proxy) -> Run QGIS inside a remote Desktop on Jupyter and open remote data sources
 
 # Jupyter
 The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computing platform. There are many extensions which make it a powerful environment for analysing satellite imagery
@@ -300,5 +301,5 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 * [BoulderAreaDetector](https://github.com/pszemraj/BoulderAreaDetector) -> CNN to classify whether a satellite image shows an area would be a good rock climbing spot or not, deployed to streamlit app
 * [streamlit-remotetileserver](https://github.com/banesullivan/streamlit-remotetileserver) -> Easily visualize a remote raster given a URL and check if it is a valid Cloud Optimized GeoTiff (COG)
 * [Streamlit_Image_Sorter](https://github.com/2320sharon/Streamlit_Image_Sorter) -> Generic Image Sorter Interface for Streamlit
-* [Streamlit-Folium + Snowflake + OpenStreetMap](https://github.com/randyzwitch/streamlit-folium-snowflake-openstreetmap) -> demonstrates the power of Snowflake Geospatial data types and queries combined with Streamlit
+* [Streamlit-Folium + Snowflake + OpenStreetMap](https://github.com/cuulee/streamlit-folium-snowflake-openstreetmap) -> demonstrates the power of Snowflake Geospatial data types and queries combined with Streamlit
 * [observing-earth-from-space-with-streamlit](https://blog.streamlit.io/observing-earth-from-space-with-streamlit/) -> blog post on the [SatSchool](https://github.com/Spiruel/SatSchool) app
