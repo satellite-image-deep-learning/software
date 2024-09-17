@@ -233,8 +233,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [osm2streets](https://github.com/a-b-street/osm2streets) -> Convert OSM to street networks with detailed geometry
 
 # QGIS
-QGIS is a desktop appication written in python and extended with plugins which are essentially python scripts
-* [QGIS](https://qgis.org/en/site/)
+[QGIS](https://qgis.org/en/site/) is a desktop appication written in python and extended with plugins which are essentially python scripts
 * Create, edit, visualise, analyse and publish geospatial information. Open source alternative to ArcGIS.
 * [Python scripting](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html#scripting-in-the-python-console)
 * Create your own plugins using the [QGIS Plugin Builder](http://g-sherman.github.io/Qgis-Plugin-Builder/)
