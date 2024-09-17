@@ -13,8 +13,7 @@
 **How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown).
 
 ## Contents
-* [Deep learning projects & frameworks](https://github.com/satellite-image-deep-learning/software#deep-learning-projects--frameworks)
-* [Software for working with remote sensing data](https://github.com/satellite-image-deep-learning/software#software-for-working-with-remote-sensing-data)
+* [Deep learning frameworks](https://github.com/satellite-image-deep-learning/software#deep-learning-projects--frameworks)
 * [Image dataset creation](https://github.com/satellite-image-deep-learning/software#image-dataset-creation)
 * [Image chipping/tiling & merging](https://github.com/satellite-image-deep-learning/software#image-chippingtiling--merging)
 * [Image processing, handling, manipulation](https://github.com/satellite-image-deep-learning/software#image-processing-handling-manipulation)
@@ -34,7 +33,7 @@
 * [Julia language](https://github.com/satellite-image-deep-learning/software#julia-language)
 * [Streamlit](https://github.com/satellite-image-deep-learning/software#streamlit)
 
-# Deep learning projects & frameworks
+# Deep learning frameworks
 * [TorchGeo](https://github.com/microsoft/torchgeo) -> PyTorch library providing datasets, samplers, transforms, and pre-trained models specific to geospatial data. 📺 YouTube: [TorchGeo with Caleb Robinson](https://youtu.be/ET8Hb_HqNJQ)
 * [rastervision](https://rastervision.io/) -> An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets. 📺 YouTube: [Raster Vision with Adeel Hassan](https://youtu.be/hH59fQ-HhZg)
 * [segmentation_gym](https://github.com/Doodleverse/segmentation_gym) -> A neural gym for training deep learning models to carry out geoscientific image segmentation, uses keras. 📺 YouTube: [Satellite image segmentation using the Doodleverse segmentation gym with Dan Buscombe](https://youtu.be/0I1TOOGfdZ0)
@@ -68,34 +67,6 @@
 * [RocketML Deep Neural Networks](https://github.com/rocketmlhq/rmldnn) -> read [Satellite Image Classification](https://github.com/rocketmlhq/rmldnn/tree/main/tutorials/satellite_image_classification) using rmldnn and Sentinel 2 data
 * [raster4ml](https://github.com/remotesensinglab/raster4ml) -> A geospatial raster processing library for machine learning
 * [moonshine](https://github.com/moonshinelabs-ai/moonshine) -> a Python package that makes it easier to train models on remote sensing data like satellite imagery
-
-# Software for working with remote sensing data
-[A note on licensing](https://www.gislounge.com/businesses-using-open-source-gis/): The two general types of licenses for open source are copyleft and permissive. Copyleft requires that subsequent derived software products also carry the license forward, e.g. the GNU Public License (GNU GPLv3). For permissive, options to modify and use the code as one please are more open, e.g. MIT & Apache 2. Checkout [choosealicense.com/](https://choosealicense.com/)
-* [awesome-earthobservation-code](https://github.com/acgeospatial/awesome-earthobservation-code) -> lists many useful tools and resources
-* [Orfeo toolbox](https://www.orfeo-toolbox.org/) - remote sensing toolbox with python API (just a wrapper to the C code). Do activites such as [pansharpening](https://www.orfeo-toolbox.org/CookBook/Applications/app_Pansharpening.html), ortho-rectification, image registration, image segmentation & classification. Not much documentation.
-* [QUICK TERRAIN READER - view DEMS, Windows](http://appliedimagery.com/download/)
-* [dl-satellite-docker](https://github.com/sshuair/dl-satellite-docker) -> docker files for geospatial analysis, including tensorflow, pytorch, gdal, xgboost...
-* [AIDE V2 - Tools for detecting wildlife in aerial images using active learning](https://github.com/microsoft/aerial_wildlife_detection)
-* [Land Cover Mapping web app from Microsoft](https://github.com/microsoft/landcover)
-* [Solaris](https://github.com/CosmiQ/solaris) -> An open source ML pipeline for overhead imagery
-* [openSAR](https://github.com/EarthBigData/openSAR) -> Synthetic Aperture Radar (SAR) Tools and Documents from Earth Big Data LLC
-* [YMIR](https://github.com/industryessentials/ymir) -> YMIR provides a Rapid Data-centric Development Platform
-for Vision Applications. Read the paper [here](https://arxiv.org/abs/2111.10046).
-* [qhub](https://qhub.dev) -> QHub enables teams to build and maintain a cost effective and scalable compute/data science platform in the cloud.
-* [imagej](https://imagej.net) -> a very versatile image viewer and processing program
-* [Geo Data Viewer](https://github.com/RandomFractals/geo-data-viewer) extension for VSCode which enables opening and viewing various geo data formats with nice visualisations
-* [Datasette](https://datasette.io/) is a tool for exploring and publishing data as an interactive website and accompanying API, with SQLite backend. Various plugins extend its functionality, for example to allow displaying geospatial info, render images (useful for thumbnails), and add user authentication. Available as a [desktop app](https://datasette.io/desktop). Read [Drawing shapes on a map to query a SpatiaLite database](https://simonwillison.net/2021/Jan/24/drawing-shapes-spatialite/)
-* [Photoprism](https://github.com/photoprism/photoprism) is a privately hosted app for browsing, organizing, and sharing your photo collection, with support for tiffs
-* [dbeaver](https://github.com/dbeaver/dbeaver) is a free universal database tool and SQL client with [geospatial features](https://github.com/dbeaver/dbeaver/wiki/Working-with-Spatial-GIS-data)
-* [Grafana](https://grafana.com/) can be used to make interactive dashboards, checkout [this example showing Point data](https://blog.timescale.com/blog/grafana-variables-101/). Note there is an [AWS managed service for Grafana](https://aws.amazon.com/grafana/)
-* [litestream](https://litestream.io/) -> Continuously stream SQLite changes to S3-compatible storage
-* [ImageFusion)](https://github.com/JohMast/ImageFusion) -> Temporal fusion of raster image time-Series
-* [nvtop](https://github.com/Syllo/nvtop) -> NVIDIA GPUs htop like monitoring tool
-* [rgis](https://github.com/frewsxcv/rgis) -> Geospatial data viewer written in Rust
-* [aerialbot](https://github.com/doersino/aerialbot) -> A simple yet highly configurable bot that tweets geotagged aerial imagery of a random location in the world
-* [SatDump](https://github.com/altillimity/SatDump) -> A generic satellite data processing software.
-* [EOdal](https://github.com/EOA-team/eodal) -> a Python library enabling the acquisition, organization, and analysis of EO data in a completely open-source manner within a unified framework.
-* [SRAI](https://github.com/kraina-ai/srai) -> Spatial Representations for Artificial Intelligence aims to provide simple and efficient solutions to geospatial problems that are accessible to everybody and reusable in various contexts where geospatial data can be used.
 
 # Image dataset creation
 Many datasets on kaggle & elsewhere have been created by screen-clipping Google Maps or browsing web portals. The tools below are to create datasets programatically
@@ -140,8 +111,8 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [tms2geotiff](https://github.com/gumblex/tms2geotiff) -> Download tiles from Tile Map Server (online maps) and make a large geo-referenced image
 * [s2-chips](https://github.com/tharlestsa/s2-chips) -> efficiently extracts satellite imagery chips from Sentinel-2 datasets based on given geo-coordinates from a GeoJSON file. Uses Ray for parallel processing
 
-# Image chipping/tiling & merging
-Since raw images can be very large, it is usually necessary to chip/tile them into smaller images before annotation & training
+# Image chipping/tiling & merging predictions
+Due to the large size of raw images, it is often necessary to chip or tile them into smaller patches before annotation and training. Similarly, models typically make predictions on these smaller patches, and it is essential to merge these predictions to reconstruct the full-sized image accurately.
 * [image_slicer](https://github.com/samdobson/image_slicer) -> Split images into tiles. Join the tiles back together
 * [tiler by nuno-faria](https://github.com/nuno-faria/tiler) -> split images into tiles and merge tiles into a large image
 * [tiler by the-lay](https://github.com/the-lay/tiler) -> N-dimensional NumPy array tiling and merging with overlapping, padding and tapering
@@ -159,9 +130,11 @@ Since raw images can be very large, it is usually necessary to chip/tile them in
 * [GeoPatch](https://github.com/Hejarshahabi/GeoPatch) -> generating patches from remote sensing data
 * [ImageTilingUtils](https://github.com/vfdev-5/ImageTilingUtils) -> Minimalistic set of image reader agnostic tools to easily iterate over large images
 * [split_raster](https://github.com/cuicaihao/split_raster) -> Creates a tiled output from an input raster dataset. pip installable
-* [SAHI](https://github.com/obss/sahi) -> Utilties for slicing COCO formatted annotations and image files, performing sliced inference using MMDetection, Detectron2, YOLOv5, HuggingFace detectors and calculating AP over image slices.
+* [SAHI](https://github.com/obss/sahi) -> Utilties for performing sliced inference and generating merged predictions. Also checkout [supervision](https://supervision.roboflow.com/latest/) which additionally supports rotated bounding boxes.
 * [geo2ml](https://github.com/mayrajeo/geo2ml) -> Python library and module for converting earth observation data to be suitable for machine learning models, Converting vector data to COCO and YOLO formats and creating required dataset files, Rasterizing polygon geometries for semantic segmentation tasks, Tiling larger rasters and shapefiles into smaller patches
 * [FlipnSlide](https://github.com/elliesch/flipnslide) -> a concise tiling and augmentation strategy to prepare large scientific images for use with GPU-enabled algorithms. Outputs PyTorch-ready preprocessed datasets from a single large image.
+* [segmenteverygrain](https://github.com/zsylvester/segmenteverygrain) -> implements merging of segmentation predictions with patching and weighted merging in `predict_big_image`
+* [image-bbox-slicer](https://image-bbox-slicer.readthedocs.io/en/latest/) -> slice images and their bounding box annotations into smaller tiles, both into specific sizes and into any arbitrary number of equal parts
 
 ## Image processing, handling, manipulation
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
