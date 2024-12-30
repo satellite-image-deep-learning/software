@@ -215,6 +215,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [stac_ipyleaflet](https://github.com/MAAP-Project/stac_ipyleaflet) -> stac_ipyleaflet is a customized version of ipyleaflet built to be an in-jupyter-notebook interactive mapping library that prioritizes access to STAC catalog data
 * [prefect-planetary-computer](https://github.com/giorgiobasile/prefect-planetary-computer) -> Prefect integrations with Microsoft Planetary Computer
 * [STAC Machine Learning Model (MLM) Extension](https://github.com/stac-extensions/mlm) -> to describe ML models, their training details, and inference runtime requirements.
+* [STAC Label Extension](https://github.com/stac-extensions/label) -> facilitates the integration of labeled Areas of Interest (AOIs) with the STAC for machine learning and other applications.
 
 # OpenStreetMap
 [OpenStreetMap](https://www.openstreetmap.org/) (OSM) is a map of the world, created by people like you and free to use under an open license. Quite a few publications use OSM data for annotations & ground truth. Note that the data is created by volunteers and the quality can be variable
