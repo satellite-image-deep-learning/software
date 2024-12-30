@@ -27,6 +27,7 @@
 # Deep learning frameworks
 * [TorchGeo](https://github.com/microsoft/torchgeo) -> PyTorch library providing datasets, samplers, transforms, and pre-trained models specific to geospatial data. 📺 YouTube: [TorchGeo with Caleb Robinson](https://youtu.be/ET8Hb_HqNJQ)
 * [rastervision](https://rastervision.io/) -> An open source Python framework for building computer vision models on aerial, satellite, and other large imagery sets. 📺 YouTube: [Raster Vision with Adeel Hassan](https://youtu.be/hH59fQ-HhZg)
+* [rslearn](https://github.com/allenai/rslearn) -> from Allenai, a tool for developing remote sensing datasets and models.
 * [segmentation_gym](https://github.com/Doodleverse/segmentation_gym) -> A neural gym for training deep learning models to carry out geoscientific image segmentation, uses keras. 📺 YouTube: [Satellite image segmentation using the Doodleverse segmentation gym with Dan Buscombe](https://youtu.be/0I1TOOGfdZ0)
 * [sits](https://github.com/e-sensing/sits) -> Satellite image time series in R. 📺 YouTube: [Satellite image time series with Gilberto Camara](https://youtu.be/0_wt_m6DoyI)
 * [torchrs](https://github.com/isaaccorley/torchrs) -> PyTorch implementation of popular datasets and models in remote sensing
