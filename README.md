@@ -102,6 +102,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [xlandsat](https://github.com/compgeolab/xlandsat) -> A Python package for handling Landsat scenes from EarthExplorer with xarray
 * [tms2geotiff](https://github.com/gumblex/tms2geotiff) -> Download tiles from Tile Map Server (online maps) and make a large geo-referenced image
 * [s2-chips](https://github.com/tharlestsa/s2-chips) -> efficiently extracts satellite imagery chips from Sentinel-2 datasets based on given geo-coordinates from a GeoJSON file. Uses Ray for parallel processing
+* [geetiles](https://github.com/rramosp/geetiles) -> download Google Earth Engine datasets to tiles as geotiff arrays
 
 # Image chipping/tiling & merging predictions
 Due to the large size of raw images, it is often necessary to chip or tile them into smaller patches before annotation and training. Similarly, models typically make predictions on these smaller patches, and it is essential to merge these predictions to reconstruct the full-sized image accurately.
