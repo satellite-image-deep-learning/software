@@ -276,6 +276,7 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 * [jupyterlab-s3-browser](https://github.com/IBM/jupyterlab-s3-browser) -> extension for browsing S3-compatible object storage
 * [papermill](https://github.com/nteract/papermill) -> Parameterize, execute, and analyze notebooks
 * [pretty-jupyter](https://github.com/JanPalasek/pretty-jupyter) -> Creates dynamic html report from jupyter notebook
+* [Fast Dash is an innovative way to deploy your Python code as interactive web apps with minimal changes](https://github.com/dkedar7/fast_dash)
 
 ## Streamlit
 [Streamlit](https://streamlit.io/) is an awesome python framework for creating apps with python. These apps can be used to present ML models, and here I list resources which are EO related. Note that a component is an addon which extends Streamlits basic functionality
