@@ -234,6 +234,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [Label Maker](https://github.com/developmentseed/label-maker) -> a library for creating machine-learning ready data by pairing satellite images with OpenStreetMap (OSM) vector data
 * [baremaps](https://github.com/baremaps/baremaps) -> Create custom vector tiles from OpenStreetMap and other data sources with Postgis and Java.
 * [osm2streets](https://github.com/a-b-street/osm2streets) -> Convert OSM to street networks with detailed geometry
+* [ohsome-planet](https://github.com/GIScience/ohsome-planet) -> Transform OSM (history) PBF files into GeoParquet. Enrich with OSM changeset metadata and country information.
 
 # QGIS
 [QGIS](https://qgis.org/en/site/) is a desktop appication written in python and extended with plugins which are essentially python scripts
