@@ -312,3 +312,4 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 
 ## Gradio
 * [gradio_folium](https://github.com/freddyaboulton/gradio_folium) -> Display Interactive Maps Created with Folium, [example](https://huggingface.co/spaces/freddyaboulton/gradio_folium)
+* [Developing interactive web apps with gradio and leafmap](https://leafmap.org/notebooks/66_gradio/)
