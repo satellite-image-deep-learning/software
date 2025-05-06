@@ -130,6 +130,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [segmenteverygrain](https://github.com/zsylvester/segmenteverygrain) -> implements merging of segmentation predictions with patching and weighted merging in `predict_big_image`
 * [image-bbox-slicer](https://image-bbox-slicer.readthedocs.io/en/latest/) -> slice images and their bounding box annotations into smaller tiles, both into specific sizes and into any arbitrary number of equal parts
 * [stacchip](https://github.com/Clay-foundation/stacchip) -> Dynamically create image chips from STAC items
+* [seamless-seg](https://github.com/Multihuntr/seamless-seg) -> Removes tiling artifacts created from stitching together adjacent tiles in large segmentation tasks.
 
 ## Image processing, handling, manipulation
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
