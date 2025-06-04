@@ -131,6 +131,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [image-bbox-slicer](https://image-bbox-slicer.readthedocs.io/en/latest/) -> slice images and their bounding box annotations into smaller tiles, both into specific sizes and into any arbitrary number of equal parts
 * [stacchip](https://github.com/Clay-foundation/stacchip) -> Dynamically create image chips from STAC items
 * [seamless-seg](https://github.com/Multihuntr/seamless-seg) -> Removes tiling artifacts created from stitching together adjacent tiles in large segmentation tasks.
+* [PolyGoneNMS](https://github.com/WolodjaZ/PolyGoneNMS) -> efficient region-level nonmax-suppression (NMS), used in [tree-detection-framework](https://github.com/open-forest-observatory/tree-detection-framework)
 
 ## Image processing, handling, manipulation
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
