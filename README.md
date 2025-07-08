@@ -133,6 +133,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [stacchip](https://github.com/Clay-foundation/stacchip) -> Dynamically create image chips from STAC items
 * [seamless-seg](https://github.com/Multihuntr/seamless-seg) -> Removes tiling artifacts created from stitching together adjacent tiles in large segmentation tasks.
 * [PolyGoneNMS](https://github.com/WolodjaZ/PolyGoneNMS) -> efficient region-level nonmax-suppression (NMS), used in [tree-detection-framework](https://github.com/open-forest-observatory/tree-detection-framework)
+* [geodataset](https://github.com/hugobaudchon/geodataset) -> tools for cutting rasters and their labels into smaller tiles. Provides datasets compatible with pytorch.
 
 ## Image processing, handling, manipulation
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
