@@ -134,6 +134,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [seamless-seg](https://github.com/Multihuntr/seamless-seg) -> Removes tiling artifacts created from stitching together adjacent tiles in large segmentation tasks.
 * [PolyGoneNMS](https://github.com/WolodjaZ/PolyGoneNMS) -> efficient region-level nonmax-suppression (NMS), used in [tree-detection-framework](https://github.com/open-forest-observatory/tree-detection-framework)
 * [geodataset](https://github.com/hugobaudchon/geodataset) -> tools for cutting rasters and their labels into smaller tiles. Provides datasets compatible with pytorch.
+* [MultiClean](https://github.com/DPIRD-DMA/MultiClean) -> morphological cleaning of multiclass 2D numpy arrays (segmentation masks and classification rasters)
 
 ## Image processing, handling, manipulation
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
@@ -223,6 +224,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [prefect-planetary-computer](https://github.com/giorgiobasile/prefect-planetary-computer) -> Prefect integrations with Microsoft Planetary Computer
 * [STAC Machine Learning Model (MLM) Extension](https://github.com/stac-extensions/mlm) -> to describe ML models, their training details, and inference runtime requirements.
 * [STAC Label Extension](https://github.com/stac-extensions/label) -> facilitates the integration of labeled Areas of Interest (AOIs) with the STAC for machine learning and other applications.
+* [STAC-RAG](https://github.com/bmcandr/stac-rag-demo) -> how to use LLMs to improve discoverability of Earth observation datasets.
 
 # OpenStreetMap
 [OpenStreetMap](https://www.openstreetmap.org/) (OSM) is a map of the world, created by people like you and free to use under an open license. Quite a few publications use OSM data for annotations & ground truth. Note that the data is created by volunteers and the quality can be variable
