@@ -105,6 +105,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [tms2geotiff](https://github.com/gumblex/tms2geotiff) -> Download tiles from Tile Map Server (online maps) and make a large geo-referenced image
 * [s2-chips](https://github.com/tharlestsa/s2-chips) -> efficiently extracts satellite imagery chips from Sentinel-2 datasets based on given geo-coordinates from a GeoJSON file. Uses Ray for parallel processing
 * [geetiles](https://github.com/rramosp/geetiles) -> download Google Earth Engine datasets to tiles as geotiff arrays
+* [terragon](https://github.com/drnhhl/terragon) -> Terragon is a Python library to download and process satellite imagery from multiple sources such as Microsoft Planetary Computer, Google Earth Engine and Copernicus Data Space Ecosystem
 
 # Image chipping/tiling & merging predictions
 Due to the large size of raw images, it is often necessary to chip or tile them into smaller patches before annotation and training. Similarly, models typically make predictions on these smaller patches, and it is essential to merge these predictions to reconstruct the full-sized image accurately.
@@ -225,6 +226,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [STAC Machine Learning Model (MLM) Extension](https://github.com/stac-extensions/mlm) -> to describe ML models, their training details, and inference runtime requirements.
 * [STAC Label Extension](https://github.com/stac-extensions/label) -> facilitates the integration of labeled Areas of Interest (AOIs) with the STAC for machine learning and other applications.
 * [STAC-RAG](https://github.com/bmcandr/stac-rag-demo) -> how to use LLMs to improve discoverability of Earth observation datasets.
+* [Earth-Copilot](https://github.com/microsoft/Earth-Copilot) -> Leverage LLMs to query spatiotemporal datasets via natural language, from Microsoft
 
 # OpenStreetMap
 [OpenStreetMap](https://www.openstreetmap.org/) (OSM) is a map of the world, created by people like you and free to use under an open license. Quite a few publications use OSM data for annotations & ground truth. Note that the data is created by volunteers and the quality can be variable
