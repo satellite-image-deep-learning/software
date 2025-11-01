@@ -227,6 +227,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [STAC Label Extension](https://github.com/stac-extensions/label) -> facilitates the integration of labeled Areas of Interest (AOIs) with the STAC for machine learning and other applications.
 * [STAC-RAG](https://github.com/bmcandr/stac-rag-demo) -> how to use LLMs to improve discoverability of Earth observation datasets.
 * [Earth-Copilot](https://github.com/microsoft/Earth-Copilot) -> Leverage LLMs to query spatiotemporal datasets via natural language, from Microsoft
+* [stac-mcp](https://github.com/Wayfinder-Foundry/stac-mcp) -> An MCP Server for STAC requests
 
 # OpenStreetMap
 [OpenStreetMap](https://www.openstreetmap.org/) (OSM) is a map of the world, created by people like you and free to use under an open license. Quite a few publications use OSM data for annotations & ground truth. Note that the data is created by volunteers and the quality can be variable
@@ -271,6 +272,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [EO Time Series Viewer](https://eo-time-series-viewer.readthedocs.io/en/latest/) -> QGIS Plugin to visualize and label raster-based earth observation time series data
 * [Deepness](https://github.com/PUTvision/qgis-plugin-deepness) -> a remote sensing plugin that enables deep learning inference in QGIS
 * [jupyter-remote-qgis-proxy](https://github.com/sunu/jupyter-remote-qgis-proxy) -> Run QGIS inside a remote Desktop on Jupyter and open remote data sources
+* [LLMFileDescribe](https://github.com/r-wenger/LLMFileDescribe) -> QGIS plugin for AI-powered geospatial data description using local LLMs (Ollama).
 
 # Jupyter
 The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computing platform. There are many extensions which make it a powerful environment for analysing satellite imagery
