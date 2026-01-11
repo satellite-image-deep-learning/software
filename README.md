@@ -137,6 +137,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [PolyGoneNMS](https://github.com/WolodjaZ/PolyGoneNMS) -> efficient region-level nonmax-suppression (NMS), used in [tree-detection-framework](https://github.com/open-forest-observatory/tree-detection-framework)
 * [geodataset](https://github.com/hugobaudchon/geodataset) -> tools for cutting rasters and their labels into smaller tiles. Provides datasets compatible with pytorch.
 * [MultiClean](https://github.com/DPIRD-DMA/MultiClean) -> morphological cleaning of multiclass 2D numpy arrays (segmentation masks and classification rasters)
+* [EarthObservationTiles](https://github.com/SBCV/EarthObservationTiles) -> Divides a set of earth observation images with inhomogeneous properties into tiles with consistent real world extent. Provides refined control over tile granularity, tile stride, and image boundary alignment (e.g. to perform a tile-specific data augmentation during training). Overlapping segmentation labels may be fused and stored as geojson files.
 
 ## Image processing, handling, manipulation
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
