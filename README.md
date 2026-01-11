@@ -32,6 +32,7 @@
 * [segmentation_gym](https://github.com/Doodleverse/segmentation_gym) -> A neural gym for training deep learning models to carry out geoscientific image segmentation, uses keras. 📺 YouTube: [Satellite image segmentation using the Doodleverse segmentation gym with Dan Buscombe](https://youtu.be/0I1TOOGfdZ0)
 * [GeoDeep](https://github.com/uav4geo/GeoDeep) -> Free and open source library for AI object detection and semantic segmentation in geospatial rasters.
 * [sits](https://github.com/e-sensing/sits) -> Satellite image time series in R. 📺 YouTube: [Satellite image time series with Gilberto Camara](https://youtu.be/0_wt_m6DoyI)
+* [ConfigILM](https://github.com/lhackel-tub/ConfigILM) -> A configurable framework for Image-Language Models within pytorch with a focus on Visual Question Answering for Remote Sensing. 📺 YouTube: [AICube auf EO-Lab - ConfigILM Python-Bibliothek](https://www.youtube.com/watch?v=eKGmVtkJjF0)
 * [torchrs](https://github.com/isaaccorley/torchrs) -> PyTorch implementation of popular datasets and models in remote sensing
 * [pytorch-enhance](https://github.com/isaaccorley/pytorch-enhance) -> Open-source Library of Image Super-Resolution Models, Datasets, and Metrics for Benchmarking or Pretrained Use
 * [GeoTorchAI](https://github.com/DataSystemsLab/GeoTorchAI) -> A Deep Learning and Scalable Data Processing Framework for Raster and Spatio-Temporal Datasets, uses PyTorch and Apache Sedona
