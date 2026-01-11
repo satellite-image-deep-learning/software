@@ -62,6 +62,7 @@
 * [RocketML Deep Neural Networks](https://github.com/rocketmlhq/rmldnn) -> read [Satellite Image Classification](https://github.com/rocketmlhq/rmldnn/tree/main/tutorials/satellite_image_classification) using rmldnn and Sentinel 2 data
 * [raster4ml](https://github.com/remotesensinglab/raster4ml) -> A geospatial raster processing library for machine learning
 * [moonshine](https://github.com/moonshinelabs-ai/moonshine) -> a Python package that makes it easier to train models on remote sensing data like satellite imagery
+* [SemanticSeg4EO](https://github.com/aleguillou1/SemanticSeg4EO) -> A unified PyTorch framework for semantic segmentation from remote sensing imagery
 
 # Image dataset creation
 Many datasets on kaggle & elsewhere have been created by screen-clipping Google Maps or browsing web portals. The tools below are to create datasets programatically
@@ -107,6 +108,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [s2-chips](https://github.com/tharlestsa/s2-chips) -> efficiently extracts satellite imagery chips from Sentinel-2 datasets based on given geo-coordinates from a GeoJSON file. Uses Ray for parallel processing
 * [geetiles](https://github.com/rramosp/geetiles) -> download Google Earth Engine datasets to tiles as geotiff arrays
 * [terragon](https://github.com/drnhhl/terragon) -> Terragon is a Python library to download and process satellite imagery from multiple sources such as Microsoft Planetary Computer, Google Earth Engine and Copernicus Data Space Ecosystem
+* [geefetch](https://github.com/gbelouze/geefetch) -> A library/CLI to download data from Google Earth Engine.
 
 # Image chipping/tiling & merging predictions
 Due to the large size of raw images, it is often necessary to chip or tile them into smaller patches before annotation and training. Similarly, models typically make predictions on these smaller patches, and it is essential to merge these predictions to reconstruct the full-sized image accurately.
@@ -177,6 +179,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [plcompositor](https://github.com/planetlabs/plcompositor) -> c++ tool from Planet to create seamless and cloudless image mosaics from deep stacks of satellite imagery
 * [georeader](https://github.com/spaceml-org/georeader) -> a package to process raster data from different satellite missions
 * [rico-hdl](https://github.com/kai-tub/rico-hdl) -> A fast and easy-to-use Remote sensing Image format COnverter for High-throughput Deep-Learning (rico-hdl)
+* [rastereasy](https://github.com/pythonraster/rastereasy/) -> simplify geospatial workflows by offering tools for reading and processing raster and vector files, resampling, cropping, reprojecting, stacking, filtering, etc
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
