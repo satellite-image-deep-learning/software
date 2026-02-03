@@ -13,17 +13,17 @@
 **How to use this repository:** if you know exactly what you are looking for (e.g. you have the paper name) you can `Control+F` to search for it in this page (or search in the raw markdown).
 
 ## Contents
-* [Deep learning frameworks](https://github.com/satellite-image-deep-learning/software#deep-learning-frameworks)
-* [Image dataset creation](https://github.com/satellite-image-deep-learning/software#image-dataset-creation)
-* [Image chipping/tiling & merging predictions](https://github.com/satellite-image-deep-learning/software#image-chippingtiling--merging-predictions)
-* [Image processing, handling, manipulation](https://github.com/satellite-image-deep-learning/software#image-processing-handling-manipulation)
-* [Image augmentation packages](https://github.com/satellite-image-deep-learning/software#image-augmentation-packages)
-* [SpatioTemporal Asset Catalog specification (STAC)](https://github.com/satellite-image-deep-learning/software#spatiotemporal-asset-catalog-specification-stac)
-* [OpenStreetMap](https://github.com/satellite-image-deep-learning/software#openstreetmap)
-* [QGIS](https://github.com/satellite-image-deep-learning/software#qgis)
-* [Jupyter](https://github.com/satellite-image-deep-learning/software#jupyter)
-* [Streamlit](https://github.com/satellite-image-deep-learning/software#streamlit)
-* [Gradio](https://github.com/satellite-image-deep-learning/software#gradio)
+* [Deep learning frameworks](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#deep-learning-frameworks)
+* [Image dataset creation](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#image-dataset-creation)
+* [Image chipping/tiling & merging predictions](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#image-chippingtiling--merging-predictions)
+* [Image processing, handling, manipulation](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#image-processing-handling-manipulation)
+* [Image augmentation packages](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#image-augmentation-packages)
+* [SpatioTemporal Asset Catalog specification (STAC)](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#spatiotemporal-asset-catalog-specification-stac)
+* [OpenStreetMap](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#openstreetmap)
+* [QGIS](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#qgis)
+* [Jupyter](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#jupyter)
+* [Streamlit](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#streamlit)
+* [Gradio](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#gradio)
 
 # Deep learning frameworks
 * [TorchGeo](https://github.com/microsoft/torchgeo) -> PyTorch library providing datasets, samplers, transforms, and pre-trained models specific to geospatial data. 📺 YouTube: [TorchGeo with Caleb Robinson](https://youtu.be/ET8Hb_HqNJQ)
