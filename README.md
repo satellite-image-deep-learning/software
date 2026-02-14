@@ -328,6 +328,7 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 * [Streamlit_Image_Sorter](https://github.com/2320sharon/Streamlit_Image_Sorter) -> Generic Image Sorter Interface for Streamlit
 * [Streamlit-Folium + Snowflake + OpenStreetMap](https://github.com/cuulee/streamlit-folium-snowflake-openstreetmap) -> demonstrates the power of Snowflake Geospatial data types and queries combined with Streamlit
 * [observing-earth-from-space-with-streamlit](https://blog.streamlit.io/observing-earth-from-space-with-streamlit/) -> blog post on the [SatSchool](https://github.com/Spiruel/SatSchool) app
+* [brick-kiln-labeling-tool](https://github.com/rishabh-mondal/brick-kiln-labeling-tool) -> a streamlit app to label brick kilns in satellite imagery
 
 ## Gradio
 * [gradio_folium](https://github.com/freddyaboulton/gradio_folium) -> Display Interactive Maps Created with Folium, [example](https://huggingface.co/spaces/freddyaboulton/gradio_folium)
