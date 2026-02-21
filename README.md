@@ -142,7 +142,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [MultiClean](https://github.com/DPIRD-DMA/MultiClean) -> morphological cleaning of multiclass 2D numpy arrays (segmentation masks and classification rasters)
 * [EarthObservationTiles](https://github.com/SBCV/EarthObservationTiles) -> Divides a set of earth observation images with inhomogeneous properties into tiles with consistent real world extent. Provides refined control over tile granularity, tile stride, and image boundary alignment (e.g. to perform a tile-specific data augmentation during training). Overlapping segmentation labels may be fused and stored as geojson files.
 
-## Image processing, handling, manipulation
+## Image processing, handling, manipulation & post-processing
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
 * [opencv-python](https://github.com/opencv/opencv-python) is pre-built CPU-only OpenCV packages for Python
 * [kornia](https://github.com/kornia/kornia) is a differentiable computer vision library for PyTorch, like openCV but on the GPU. Perform image transformations, epipolar geometry, depth estimation, and low-level image processing such as filtering and edge detection that operate directly on tensors.
@@ -181,6 +181,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [georeader](https://github.com/spaceml-org/georeader) -> a package to process raster data from different satellite missions
 * [rico-hdl](https://github.com/kai-tub/rico-hdl) -> A fast and easy-to-use Remote sensing Image format COnverter for High-throughput Deep-Learning (rico-hdl)
 * [rastereasy](https://github.com/pythonraster/rastereasy/) -> simplify geospatial workflows by offering tools for reading and processing raster and vector files, resampling, cropping, reprojecting, stacking, filtering, etc
+* [Smoothify](https://github.com/DPIRD-DMA/Smoothify) -> A Python package for smoothing and refining geometries derived from raster data classifications
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
