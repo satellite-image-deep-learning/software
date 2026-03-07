@@ -182,6 +182,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [rico-hdl](https://github.com/kai-tub/rico-hdl) -> A fast and easy-to-use Remote sensing Image format COnverter for High-throughput Deep-Learning (rico-hdl)
 * [rastereasy](https://github.com/pythonraster/rastereasy/) -> simplify geospatial workflows by offering tools for reading and processing raster and vector files, resampling, cropping, reprojecting, stacking, filtering, etc
 * [Smoothify](https://github.com/DPIRD-DMA/Smoothify) -> A Python package for smoothing and refining geometries derived from raster data classifications
+* [contourrs](https://github.com/isaaccorley/contourrs) -> Fast raster polygonization with Arrow export — pure Rust, zero GDAL
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
