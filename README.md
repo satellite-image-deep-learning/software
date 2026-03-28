@@ -237,6 +237,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [STAC-RAG](https://github.com/bmcandr/stac-rag-demo) -> how to use LLMs to improve discoverability of Earth observation datasets.
 * [Earth-Copilot](https://github.com/microsoft/Earth-Copilot) -> Leverage LLMs to query spatiotemporal datasets via natural language, from Microsoft
 * [stac-mcp](https://github.com/Wayfinder-Foundry/stac-mcp) -> An MCP Server for STAC requests
+* [stac-geoparquet-spec](https://github.com/radiantearth/stac-geoparquet-spec) -> specification for storing STAC in GeoParquet.
 
 # OpenStreetMap
 [OpenStreetMap](https://www.openstreetmap.org/) (OSM) is a map of the world, created by people like you and free to use under an open license. Quite a few publications use OSM data for annotations & ground truth. Note that the data is created by volunteers and the quality can be variable
