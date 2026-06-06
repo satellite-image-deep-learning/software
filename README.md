@@ -161,7 +161,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [Missing-Pixel-Filler](https://github.com/spaceml-org/Missing-Pixel-Filler) -> given images that may contain missing data regions (like satellite imagery with swath gaps), returns these images with the regions filled
 * [color_range_filter](https://github.com/developmentseed/color_range_filter) -> a script that allows us to find range of colors in images using openCV, and then convert them into geo vectors
 * [eo4ai](https://github.com/ESA-PhiLab/eo4ai) -> easy-to-use tools for preprocessing datasets for image segmentation tasks in Earth Observation
-* [rasterix](https://github.com/mogasw/rasterix) -> a cross-platform utility built around the GDAL library and the Qt framework designed to process geospatial raster data
+* [rasterix](https://github.com/xarray-contrib/rasterix) -> a cross-platform utility built around the GDAL library and the Qt framework designed to process geospatial raster data
 * [datumaro](https://github.com/openvinotoolkit/datumaro) -> Dataset Management Framework, a Python library and a CLI tool to build, analyze and manage Computer Vision datasets
 * [sentinelPot](https://github.com/LLeiSong/sentinelPot) -> a python package to preprocess Sentinel 1&2 imagery
 * [ImageAnalysis](https://github.com/UASLab/ImageAnalysis) -> Aerial imagery analysis, processing, and presentation scripts.
@@ -262,7 +262,6 @@ The STAC specification provides a common metadata specification, API, and catalo
 [QGIS](https://qgis.org/en/site/) is a desktop appication written in python and extended with plugins which are essentially python scripts
 * Create, edit, visualise, analyse and publish geospatial information. Open source alternative to ArcGIS.
 * [Python scripting](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html#scripting-in-the-python-console)
-* Create your own plugins using the [QGIS Plugin Builder](http://g-sherman.github.io/Qgis-Plugin-Builder/)
 * [DeepLearningTools plugin](https://plugins.qgis.org/plugins/DeepLearningTools/) -> aid training Deep Learning Models
 * [Mapflow.ai plugin](https://www.gislounge.com/run-ai-mapping-in-qgis-over-high-resolution-satellite-imagery/) -> various models to extract building footprints etc from Maxar imagery
 * [dzetsaka plugin](https://github.com/nkarasiak/dzetsaka) -> classify different kind of vegetation
