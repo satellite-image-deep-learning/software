@@ -24,6 +24,7 @@
 * [Jupyter](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#jupyter)
 * [Streamlit](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#streamlit)
 * [Gradio](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#gradio)
+* [Agents](https://github.com/satellite-image-deep-learning/software?tab=readme-ov-file#agents)
 
 # Deep learning frameworks
 * [TorchGeo](https://github.com/microsoft/torchgeo) -> PyTorch library providing datasets, samplers, transforms, and pre-trained models specific to geospatial data. 📺 YouTube: [TorchGeo with Caleb Robinson](https://youtu.be/ET8Hb_HqNJQ)
@@ -336,3 +337,6 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 * [gradio_folium](https://github.com/freddyaboulton/gradio_folium) -> Display Interactive Maps Created with Folium, [example](https://huggingface.co/spaces/freddyaboulton/gradio_folium)
 * [Developing interactive web apps with gradio and leafmap](https://leafmap.org/notebooks/66_gradio/)
 * [gradio_image_annotator](https://github.com/edgarGracia/gradio_image_annotator) -> annotate images with bounding boxes
+
+## Agents
+* [OlmoEarth-Agent](https://github.com/2imi9/OlmoEarth-Agent) -> Drive OlmoEarth Studio from natural-language briefs - on a local LLM, or your own cloud API.
