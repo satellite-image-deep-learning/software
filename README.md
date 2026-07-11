@@ -39,6 +39,7 @@
 * [pytorch-enhance](https://github.com/isaaccorley/pytorch-enhance) -> Open-source Library of Image Super-Resolution Models, Datasets, and Metrics for Benchmarking or Pretrained Use
 * [GeoTorchAI](https://github.com/DataSystemsLab/GeoTorchAI) -> A Deep Learning and Scalable Data Processing Framework for Raster and Spatio-Temporal Datasets, uses PyTorch and Apache Sedona
 * [EarthNets](https://earthnets.nicepage.io/) -> includes a database of 400 baseline models, and tutorial examples of common deep learning tasks on satellite imagery
+* [EarthLake](https://github.com/polydbms/earthlake/) -> A model lake system for discovering, evaluating, comparing, and operationalizing Earth Observation foundation models in a unified workflow.
 * [PaddleRS](https://github.com/PaddlePaddle/PaddleRS) -> remote sensing image processing development kit based on PaddlePaddle. For English see README_EN.md
 * [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) -> Semantic Segmentation Toolbox with support for many remote sensing datasets including LoveDA, Potsdam, Vaihingen & iSAID
 * [mmrotate](https://github.com/open-mmlab/mmrotate) -> Open-source toolbox for rotated object detection which is great for detecting randomly oriented objects in huge satellite images
@@ -183,6 +184,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [rastereasy](https://github.com/pythonraster/rastereasy/) -> simplify geospatial workflows by offering tools for reading and processing raster and vector files, resampling, cropping, reprojecting, stacking, filtering, etc
 * [Smoothify](https://github.com/DPIRD-DMA/Smoothify) -> A Python package for smoothing and refining geometries derived from raster data classifications
 * [contourrs](https://github.com/isaaccorley/contourrs) -> Fast raster polygonization with Arrow export — pure Rust, zero GDAL
+* [Crop Sequence Boundaries](https://github.com/taylor-geospatial/crop-sequence-boundaries-v2) -> An open-source pipeline that converts USDA Cropland Data Layer rasters into field-level crop sequence boundary polygons.
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
@@ -242,6 +244,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 # OpenStreetMap
 [OpenStreetMap](https://www.openstreetmap.org/) (OSM) is a map of the world, created by people like you and free to use under an open license. Quite a few publications use OSM data for annotations & ground truth. Note that the data is created by volunteers and the quality can be variable
 * [osmnx](https://github.com/gboeing/osmnx) -> Retrieve, model, analyze, and visualize data from OpenStreetMap
+* [osm-rasterizer](https://github.com/ancazugo/osm-rasterizer) -> Convert OpenStreetMap or OpenHistoricalMap vector features into single-layer categorical or multi-band GeoTIFF rasters using configurable tags, bounds, and resolution.
 * [ohsome2label](https://github.com/GIScience/ohsome2label) -> Historical OpenStreetMap Objects to Machine Learning Training Samples
 * [Label Maker](https://github.com/developmentseed/label-maker) -> downloads OpenStreetMap QA Tile information and satellite imagery tiles and saves them as an `.npz` file for use in machine learning training. This should be used instead of the deprecated [skynet-data](https://github.com/developmentseed/skynet-data)
 * [prettymaps](https://github.com/marceloprates/prettymaps) -> A small set of Python functions to draw pretty maps from OpenStreetMap data
