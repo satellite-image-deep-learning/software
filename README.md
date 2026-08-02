@@ -85,6 +85,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [satpy](https://github.com/pytroll/satpy) -> a python library for reading and manipulating meteorological remote sensing data and writing it to various image and data file formats
 * [GIBS-Downloader](https://github.com/spaceml-org/GIBS-Downloader) -> a command-line tool which facilitates the downloading of NASA satellite imagery and offers different functionalities in order to prepare the images for training in a machine learning pipeline
 * [eodag](https://github.com/CS-SI/eodag) -> Earth Observation Data Access Gateway
+* [aereo](https://github.com/frandorr/aereo) -> A plugin-based satellite data extraction framework for producing grid-aligned, analysis-ready GeoTIFFs locally or on AWS Lambda
 * [pylandsat](https://github.com/yannforget/pylandsat) -> Search, download, and preprocess Landsat imagery
 * [landsatxplore](https://github.com/yannforget/landsatxplore) -> Search and download Landsat scenes from EarthExplorer
 * [OpenSarToolkit](https://github.com/ESA-PhiLab/OpenSarToolkit) -> High-level functionality for the inventory, download and pre-processing of Sentinel-1 data in the python language
@@ -168,6 +169,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [ImageAnalysis](https://github.com/UASLab/ImageAnalysis) -> Aerial imagery analysis, processing, and presentation scripts.
 * [rastertodataframe](https://github.com/mblackgeo/rastertodataframe) -> Convert any GDAL compatible raster to a Pandas DataFrame
 * [yeoda](https://github.com/TUW-GEO/yeoda) -> provides lower and higher-level data cube classes to work with well-defined and structured earth observation data
+* [FireCube](https://eumetsat.github.io/firecube/) -> A plugin-based batch ingestion CLI for turning Earth Observation products into analysis-ready data cubes
 * [tiles-to-tiff](https://github.com/jimutt/tiles-to-tiff) -> Python script for converting XYZ raster tiles for slippy maps to a georeferenced TIFF image
 * [telluric](https://github.com/satellogic/telluric) -> a Python library to manage vector and raster geospatial data in an interactive and easy way
 * [Sniffer](https://github.com/2320sharon/Sniffer) -> A python application for sorting through geospatial imagery
