@@ -289,6 +289,7 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [jupyter-remote-qgis-proxy](https://github.com/sunu/jupyter-remote-qgis-proxy) -> Run QGIS inside a remote Desktop on Jupyter and open remote data sources
 * [LLMFileDescribe](https://github.com/r-wenger/LLMFileDescribe) -> QGIS plugin for AI-powered geospatial data description using local LLMs (Ollama).
 * [Field Boundary Tools](https://github.com/noahdfreeman/field_boundaries) -> An open-source QGIS workflow for creating agronomic field polygons from public and local vector data.
+* [AI Segmentation](https://github.com/TerraLabAI/QGIS_AI-Segmentation) -> click a building or tree on imagery to get its polygon, or name an object to extract all of them; a local mode runs SAM 2.1 on the CPU
 
 # Jupyter
 The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computing platform. There are many extensions which make it a powerful environment for analysing satellite imagery
