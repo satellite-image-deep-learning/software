@@ -112,6 +112,7 @@ Many datasets on kaggle & elsewhere have been created by screen-clipping Google 
 * [geetiles](https://github.com/rramosp/geetiles) -> download Google Earth Engine datasets to tiles as geotiff arrays
 * [terragon](https://github.com/drnhhl/terragon) -> Terragon is a Python library to download and process satellite imagery from multiple sources such as Microsoft Planetary Computer, Google Earth Engine and Copernicus Data Space Ecosystem
 * [geefetch](https://github.com/gbelouze/geefetch) -> A library/CLI to download data from Google Earth Engine.
+* [mapcv](https://github.com/tahamukhtar20/mapcv) -> configuration-driven tool for creating leakage-safe computer-vision datasets from geospatial imagery and vector or raster labels, with Sentinel-2, STAC, GeoTIFF, OpenStreetMap and Google Earth Engine support.
 
 # Image chipping/tiling & merging predictions
 Due to the large size of raw images, it is often necessary to chip or tile them into smaller patches before annotation and training. Similarly, models typically make predictions on these smaller patches, and it is essential to merge these predictions to reconstruct the full-sized image accurately.
@@ -143,6 +144,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [geodataset](https://github.com/hugobaudchon/geodataset) -> tools for cutting rasters and their labels into smaller tiles. Provides datasets compatible with pytorch.
 * [MultiClean](https://github.com/DPIRD-DMA/MultiClean) -> morphological cleaning of multiclass 2D numpy arrays (segmentation masks and classification rasters)
 * [EarthObservationTiles](https://github.com/SBCV/EarthObservationTiles) -> Divides a set of earth observation images with inhomogeneous properties into tiles with consistent real world extent. Provides refined control over tile granularity, tile stride, and image boundary alignment (e.g. to perform a tile-specific data augmentation during training). Overlapping segmentation labels may be fused and stored as geojson files.
+* [sam-mosaic](https://github.com/osmarluiz/sam-mosaic) -> SAM2-based zero-shot segmentation of very large satellite, aerial and drone images using tiled multi-pass inference and boundary-aware segment merging. Paper: [Remote SAMsing: From Segment Anything to Segment Everything](https://arxiv.org/abs/2605.00256)
 
 ## Image processing, handling, manipulation & post-processing
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
