@@ -65,6 +65,8 @@
 * [raster4ml](https://github.com/remotesensinglab/raster4ml) -> A geospatial raster processing library for machine learning
 * [moonshine](https://github.com/moonshinelabs-ai/moonshine) -> a Python package that makes it easier to train models on remote sensing data like satellite imagery
 * [SemanticSeg4EO](https://github.com/aleguillou1/SemanticSeg4EO) -> A unified PyTorch framework for semantic segmentation from remote sensing imagery
+* [lucid-yolo](https://github.com/Borda/lucid-YOLO) -> independent PyTorch Lightning implementation of YOLO26 methods for detection, instance segmentation and oriented boxes, with a keypoint task and ONNX export. Paper: [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748)
+* [detr-geo](https://github.com/gpriceless/detr-geo) -> Python package for RF-DETR object detection on satellite and aerial GeoTIFFs, with tiled inference, fine-tuning and georeferenced vector export.
 
 # Image dataset creation
 Many datasets on kaggle & elsewhere have been created by screen-clipping Google Maps or browsing web portals. The tools below are to create datasets programatically
