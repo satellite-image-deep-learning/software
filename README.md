@@ -351,3 +351,4 @@ The [Jupyter](https://jupyter.org/) Notebook is a web-based interactive computin
 
 ## Agents
 * [OlmoEarth-Agent](https://github.com/2imi9/OlmoEarth-Agent) -> Drive OlmoEarth Studio from natural-language briefs - on a local LLM, or your own cloud API.
+* [GeoFaham](https://github.com/microsoft/GeoFaham) -> Python geospatial analysis platform coordinating specialist agents for PostGIS queries, OpenStreetMap features, satellite imagery discovery and raster analysis. Paper: [GeoFaham: Domain-Specialized Multi-Agent Geospatial Analytics for Disaster Response](https://arxiv.org/abs/2611.04977)
