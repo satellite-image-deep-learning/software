@@ -191,6 +191,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [Smoothify](https://github.com/DPIRD-DMA/Smoothify) -> A Python package for smoothing and refining geometries derived from raster data classifications
 * [contourrs](https://github.com/isaaccorley/contourrs) -> Fast raster polygonization with Arrow export — pure Rust, zero GDAL
 * [Crop Sequence Boundaries](https://github.com/taylor-geospatial/crop-sequence-boundaries-v2) -> An open-source pipeline that converts USDA Cropland Data Layer rasters into field-level crop sequence boundary polygons.
+* [sentinel-crop-pipeline](https://github.com/muend/sentinel-crop-pipeline) -> reproducible Sentinel-2 L2A data preparation for crop-classification models: scene discovery, cloud/shadow masking, fixed-size patches, spatially blocked splits and patch-aligned label masks
 
 ## Image augmentation packages
 Image augmentation is a technique used to expand a training dataset in order to improve ability of the model to generalise
