@@ -245,8 +245,8 @@ The STAC specification provides a common metadata specification, API, and catalo
 * [STAC Machine Learning Model (MLM) Extension](https://github.com/stac-extensions/mlm) -> to describe ML models, their training details, and inference runtime requirements.
 * [STAC Label Extension](https://github.com/stac-extensions/label) -> facilitates the integration of labeled Areas of Interest (AOIs) with the STAC for machine learning and other applications.
 * [STAC-RAG](https://github.com/bmcandr/stac-rag-demo) -> how to use LLMs to improve discoverability of Earth observation datasets.
-* [Earth-Copilot](https://github.com/microsoft/Earth-Copilot) -> Leverage LLMs to query spatiotemporal datasets via natural language, from Microsoft
-* [stac-mcp](https://github.com/Wayfinder-Foundry/stac-mcp) -> An MCP Server for STAC requests
+* [Planetary Explorer](https://github.com/microsoft/Planetary-Explorer) -> Microsoft’s natural-language application for exploring and visualizing geospatial data, inspired by NASA Earth Copilot.
+* [stac-mcp](https://github.com/BnJam/stac-mcp) -> An MCP Server for STAC requests
 * [stac-geoparquet-spec](https://github.com/radiantearth/stac-geoparquet-spec) -> specification for storing STAC in GeoParquet.
 
 # OpenStreetMap
