@@ -147,6 +147,7 @@ Due to the large size of raw images, it is often necessary to chip or tile them 
 * [MultiClean](https://github.com/DPIRD-DMA/MultiClean) -> morphological cleaning of multiclass 2D numpy arrays (segmentation masks and classification rasters)
 * [EarthObservationTiles](https://github.com/SBCV/EarthObservationTiles) -> Divides a set of earth observation images with inhomogeneous properties into tiles with consistent real world extent. Provides refined control over tile granularity, tile stride, and image boundary alignment (e.g. to perform a tile-specific data augmentation during training). Overlapping segmentation labels may be fused and stored as geojson files.
 * [sam-mosaic](https://github.com/osmarluiz/sam-mosaic) -> SAM2-based zero-shot segmentation of very large satellite, aerial and drone images using tiled multi-pass inference and boundary-aware segment merging. Paper: [Remote SAMsing: From Segment Anything to Segment Everything](https://arxiv.org/abs/2605.00256)
+* [ManyPred](https://github.com/DPIRD-DMA/ManyPred) -> tiled and batched dense inference for PyTorch models, with weighted overlap blending, nodata handling, and optional GeoTIFF I/O.
 
 ## Image processing, handling, manipulation & post-processing
 * [Pillow is the Python Imaging Library](https://pillow.readthedocs.io/en/stable/) -> this will be your go-to package for image manipulation in python
